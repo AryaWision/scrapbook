@@ -1,3 +1,10 @@
+@font-face {
+    font-family:'IndieFlower';
+    src: url('IndieFlower-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+ }
+
 * {
     position: relative;
     box-sizing: border-box;
@@ -47,6 +54,7 @@ h1 {
     color: whitesmoke;
     padding: 15px;
     float: left;
+    font-family: IndieFlower;
 }
 
 a:hover {
@@ -69,6 +77,10 @@ p:last-of-type {
 
 .cats li{
     float: right;
+}
+
+.cats li a{
+    font-family: IndieFlower;
 }
 
 .cats li a:hover{
@@ -174,5 +186,11 @@ h1.cat{
 @media screen and (max-width: 786px) {
     .row, .row.triple {
         grid-template-columns: auto;
+    }
+    .cats li{
+        width: 100%;
+    }
+    header .title{
+        width: 100%;
     }
 }

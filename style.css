@@ -1,0 +1,154 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+div {
+    width: 100%;
+    float: left;
+}
+
+h1 {
+    color: whitesmoke;
+    padding: 15px;
+    float: left;
+}
+
+a:hover {
+    background-color: #111;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p:last-of-type {
+    margin: 0;
+}
+
+.container{
+    margin-bottom: 15px;
+}
+
+.cats{
+    background-color: #111;
+}
+
+.cats li{
+    float: right;
+}
+
+.cats li a:hover{
+    background-color: #333;
+}
+
+.card {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    display: block;
+    padding: 50px 16px;
+    margin: 16px 0;
+    text-decoration: none;
+}
+
+.card * {
+    transition: 0.3s ease all;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    padding: 0 15px;
+}
+
+h1.cat{
+    margin-top: 100px;
+}
+
+.column {
+    border: 1px solid whitesmoke;
+}
+
+.column img {
+    width: 100%;
+}
+
+.column .focus-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgb(0, 0, 0, 0.9);
+    padding: 14px 16px;
+    color: whitesmoke;
+    border: 15px solid whitesmoke;
+}
+
+.column:hover{
+    cursor: pointer;
+}
+
+.column:focus-within .focus-content {
+    display: block;
+}
+
+.text *{
+    display: block;
+    float: left;
+    color: whitesmoke;
+}
+
+.text p{
+    width: 100%;
+    padding: 15px;
+}
+
+/* Responsive columns */
+
+@media screen and (max-width: 992px) {
+    .row {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .row {
+        grid-template-columns: auto;
+    }
+}

@@ -189,6 +189,11 @@ h1.cat{
     padding: 0 5px;
 }
 
+.goup:hover{
+    color: whitesmoke;
+    background-color: #111;
+}
+
 /* Responsive columns */
 
 @media screen and (max-width: 992px) {

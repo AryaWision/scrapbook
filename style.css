@@ -118,6 +118,7 @@ h1.cat{
     padding: 14px 16px;
     color: whitesmoke;
     border: 15px solid whitesmoke;
+    overflow: scroll;
 }
 
 .column:hover{

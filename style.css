@@ -156,7 +156,7 @@ h1.cat{
     background-color: transparent;
     margin: 15px;
 }
-.tb-list li, h1{
+.tb-list li, .freetext h1{
     color: whitesmoke;
     float: initial;
     padding-bottom: 10px;

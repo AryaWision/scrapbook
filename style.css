@@ -182,11 +182,11 @@ h1.cat{
     color:#111;
     z-index: 2;
     text-align: right;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-decoration: none;
     background-color: white;
     border-radius: 5px;
-    padding: 0 5px;
+    padding: 0 1rem;
     border: 1px solid #111;
 }
 

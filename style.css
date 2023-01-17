@@ -154,9 +154,10 @@ h1.cat{
 }
 .tb-list{
     background-color: transparent;
-    margin: 15px;
+    float: left;
+    width: 100%;
 }
-.tb-list li, .freetext h1{
+.tb-list li{
     color: whitesmoke;
     float: initial;
     padding-bottom: 10px;

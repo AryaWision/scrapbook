@@ -186,7 +186,7 @@ h1.cat{
     text-decoration: none;
     background-color: white;
     border-radius: 5px;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     border: 1px solid #111;
 }
 

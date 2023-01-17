@@ -125,6 +125,15 @@ h1.cat{
     overflow: scroll;
 }
 
+.focus-content::-webkit-scrollbar {
+    display: none;
+}
+
+.focus-content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .column:hover{
     cursor: pointer;
 }

@@ -156,13 +156,13 @@ h1.cat{
 /* Responsive columns */
 
 @media screen and (max-width: 992px) {
-    .row {
+    .row, .row.triple {
         grid-template-columns: auto auto;
     }
 }
 
 @media screen and (max-width: 786px) {
-    .row {
+    .row, .row.triple {
         grid-template-columns: auto;
     }
 }

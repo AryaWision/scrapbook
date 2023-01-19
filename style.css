@@ -112,6 +112,10 @@ p:last-of-type {
     grid-template-columns: auto auto auto;
 }
 
+.row.pair{
+    grid-template-columns: auto auto;
+}
+
 h1.cat{
     margin-top: 100px;
 }
@@ -205,7 +209,7 @@ h1.cat{
 }
 
 @media screen and (max-width: 786px) {
-    .row, .row.triple {
+    .row, .row.triple, .row.pair {
         grid-template-columns: auto;
     }
     .cats li{
